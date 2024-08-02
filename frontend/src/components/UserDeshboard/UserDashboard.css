@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+ 
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.custom{
+    position: absolute;
+    right:20px ;
+    margin: 20px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formbold-form-title {
+  margin-bottom: 40px;
+}
+.formbold-form-title h3 {
+  color: #07074D;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formbold-form-title p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #536387;
+  width: 70%;
+}
+.formbold-form-input {
+  width: 100%;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: 1px solid #DDE3EC;
+  background: #FAFAFA;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+ .complaints-list ul{
+    margin: 20px;
+    width: 90%;
+    
+} 
+.complaints-list{
+    margin-left: 12px;
+    font-style: oblique;
+} 
+
+
+.formbold-btn {
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 14px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #6A64F1;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+} 
+
+.status-time{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.head-status{
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-status p:nth-child(2){
+  font-size: 13px;
+}
+
+
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* max-width: 400px; */
+  width: 95%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-body {
+  margin-bottom: 15px;
+}
+
+.card-body p {
+  margin: 10px 0;
+}
+
+.card-body p strong {
+  color: #333;
+}
+
+.card-footer {
+  border-top: 2px solid #ddd;
+  padding-top: 10px;
+}
+
+.card-footer p {
+  margin: 5px 0;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}

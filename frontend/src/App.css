@@ -1,0 +1,97 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input, .input-box textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-box button, .input-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-box button:hover, .input-box input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .policy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .policy input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .text span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li p {
+    margin: 0 0 10px;
+  }
+  
+  ul li textarea {
+    margin-bottom: 10px;
+  }
+  
