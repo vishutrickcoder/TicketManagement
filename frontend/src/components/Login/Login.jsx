@@ -9,6 +9,7 @@ const Login = () => {
     const [currentState, setCurrentState] = useState("Login")
     const [data , setData] = useState({
         name:"",
+         username: "",
         email:"",
         password: "",
         isAdmin: false
@@ -44,19 +45,20 @@ const Login = () => {
                 navigate('/user-dashboard');
               }
     
-            } else {
-              setCurrentState("Login");
-              
-            }
-            setData({
-              name: "",
-              email: "",
-              password: "",
-              isAdmin: false
-            });
-          }
+            } 
+            
     
         
+          }
+    
+        setCurrentState('Login')
+        setData({
+          name: "",
+          username: "",
+          email: "",
+          password: "",
+          isAdmin: false
+        });
       }
   
     return (
@@ -65,9 +67,18 @@ const Login = () => {
             <h2 className='login-h2'>{currentState}</h2>
             <form  onSubmit={onLogin}>
 
-                {currentState === "Login" ? <></> : <div className="input-box">
+                {currentState === "Login" ? <></> :<>
+                  <div className="input-box">
                     <input type="text" value={data.name} name='name' onChange={onChangeHandler} placeholder="Enter your name" required />
-                </div>}
+                </div>
+                <div className="input-box">
+                <input type="text" value={data.username} name='username' onChange={onChangeHandler} placeholder="Username" required />
+            </div>
+                </> 
+                }
+
+        
+
 
                 <div className="input-box">
                     <input type="text" name='email' value={data.email} onChange={onChangeHandler} placeholder="Enter your email" required />
